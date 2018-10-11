@@ -1,5 +1,5 @@
 node {
-    stage ('echo command run' ) {
-sh'echo 'PIPELINE BY ME''
+    stage('Git Clone')  {
+            https://github.com/stalinjeetsingh/Jenkinsfile'
         }
     }
