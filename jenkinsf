@@ -1,6 +1,5 @@
 node {
-    stage('Git Clone') {
-        dir ('MAVEN') {
-            git 'https://github.com/cit31/studentapp-code.git'
+    stage (echo command run ) {
+sh'echo 'PIPELINE BY ME''
         }
     }
